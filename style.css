@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: pink;
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    align-items: center;
+}
+
+.welcome-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    flex-direction: column;
+}
+
