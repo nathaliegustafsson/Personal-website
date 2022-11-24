@@ -3,19 +3,62 @@ body {
 }
 
 header {
-    background-color: pink;
     height: 3rem;
     display: flex;
     justify-content: flex-end;
-    padding-right: 1rem;
+    padding-right: 1.5rem;
+    padding-top: 0.7rem;
     align-items: center;
+}
+
+.fa-bars {
+    font-size: 1.5rem;
+}
+
+h1 {
+    margin-bottom: -0.5rem;
+    font-size: 48px;
+}
+
+.welcome-paragraph {
+    font-size: 20px;
 }
 
 .welcome-page {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15rem;
+    margin-top: 10rem;
     flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 30rem;
+}
+
+.link-1, .link-2, .link-3 {
+    height: 4rem;
+    width: 6.5rem;
+    border-radius: 100rem;
+    text-align: center;
+    padding-top: 2.5rem;
+
+}
+
+.link-1 {
+    background-color: #ABBFB8;
+}
+
+.link-2 {
+    background-color: #E2DBE8;
+}
+
+.link-3 {
+    background-color: #D6A6A6;
 }
 
