@@ -62,3 +62,20 @@ ul {
     background-color: #D6A6A6;
 }
 
+.green-background {
+    margin-top: 15rem;
+    height: 50rem;
+    width: 30rem;
+    background-color: #ABBFB8;
+    position: absolute;
+}
+
+.info-card {
+    height: 5rem;
+    width: 5rem;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+    margin-top: 15rem;
+}
+
