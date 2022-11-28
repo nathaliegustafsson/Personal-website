@@ -5,14 +5,70 @@ body {
 header {
     height: 3rem;
     display: flex;
+    align-items: center;
     justify-content: flex-end;
     padding-right: 1.5rem;
     padding-top: 0.7rem;
-    align-items: center;
+    cursor: pointer;
 }
 
 .fa-bars {
     font-size: 1.5rem;
+}
+
+/* Animation on hamburger-icon changing to a x after clicking */
+
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 2.5rem;
+    height: 0.1rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-btn-burger {
+    width: 2.5rem;
+    height: 0.1rem;
+    background: black;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-btn-burger::before,
+.menu-btn-burger::after {
+    content: '';
+    position: absolute;
+    width: 2.5rem;
+    height: 0.1rem;
+    background: black;
+    border-radius: 100rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-btn-burger::before {
+    transform: translateY(-1rem);
+}
+
+.menu-btn-burger::after {
+    transform: translateY(1rem);
+}
+
+/* Animation */
+.menu-btn.open .menu-btn-burger {
+    transform: translateX(-3rem);
+    background: transparent;
+}
+
+.menu-btn.open .menu-btn-burger::before {
+    transform: rotate(45deg) translate(2rem, -2rem);
+}
+
+.menu-btn.open .menu-btn-burger::after {
+    transform: rotate(-45deg) translate(2rem, 2rem);
 }
 
 
@@ -42,11 +98,13 @@ h1 {
 }
 
 span {
-    animation: blinker 1s linear infinite;
+    animation: blinker 1.5s linear infinite;
+    border: 0.5px solid black;
+    margin: 0.2rem;
 }
 
 @keyframes blinker {
-    60% {
+    50% {
         opacity: 0;
     }
 }
