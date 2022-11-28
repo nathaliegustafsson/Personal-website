@@ -15,18 +15,11 @@ header {
     font-size: 1.5rem;
 }
 
+
+/* WELCOME SECTION */
 h1 {
     margin-bottom: -0.1rem;
     font-size: 48px;
-}
-
-.welcome-paragraph {
-    font-size: 20px;
-}
-
-.welcome-text {
-    display: flex;
-    flex-direction: column;
 }
 
 .welcome-page {
@@ -36,6 +29,26 @@ h1 {
     height: 35rem;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
+}
+
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-paragraph {
+    font-size: 20px;
+    position: relative;
+}
+
+span {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    60% {
+        opacity: 0;
+    }
 }
 
 .quick-links {
@@ -73,6 +86,9 @@ ul {
 .link-3 {
     background-color: #D6A6A6;
 }
+
+
+/* ABOUT ME SECTION */
 
 .green-background {
     margin-top: 15rem;
