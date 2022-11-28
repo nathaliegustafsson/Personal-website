@@ -16,7 +16,7 @@ header {
     font-size: 1.5rem;
 }
 
-/* Animation on hamburger-icon changing to a x after clicking */
+/* Animation on hamburger-icon changing to an X after clicking */
 
 .menu-btn {
     position: relative;
@@ -57,7 +57,7 @@ header {
     transform: translateY(1rem);
 }
 
-/* Animation */
+/* The animation to a X */
 .menu-btn.open .menu-btn-burger {
     transform: translateX(-3rem);
     background: transparent;
@@ -148,6 +148,11 @@ ul {
 
 /* ABOUT ME SECTION */
 
+.about-me {
+    height: 70rem;
+    display: flex;
+}
+
 .green-background {
     margin-top: 15rem;
     height: 50rem;
@@ -157,11 +162,59 @@ ul {
 }
 
 .info-card {
-    height: 5rem;
-    width: 5rem;
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 35rem;
+    width: 25rem;
+    background-color: #CFD0E7;
     position: absolute;
     z-index: 10;
-    margin-top: 15rem;
+    margin-top: 23rem;
+    margin-left: 13rem;
+    box-shadow: -12px 11px 30px -5px rgba(0,0,0,0.50);;
+}
+
+.about-me-pic {
+    width: 13rem;
+    border-radius: 50%;
+    margin-top: 2.5rem;
+}
+
+.name-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-me-border {
+    border: 1px solid #7D7687;
+    width: 6rem;
+    margin-bottom: -0.5rem;
+    margin-top: -0.5rem;
+}
+
+.info-card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.white-border {
+    height: 3rem;
+    width: 25rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.fa-github {
+    font-size: 1.7rem;
+}
+
+.fa-linkedin-in {
+    font-size: 1.7rem;
 }
 
