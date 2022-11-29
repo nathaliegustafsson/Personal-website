@@ -16,8 +16,8 @@ header {
     font-size: 1.5rem;
 }
 
-/* Animation on hamburger-icon changing to an X after clicking */
 
+/* Animation on hamburger-icon changing to an X after clicking */
 .menu-btn {
     position: relative;
     display: flex;
@@ -150,6 +150,7 @@ ul {
 
 .about-me {
     height: 70rem;
+    width: 100%;
     display: flex;
 }
 
@@ -217,4 +218,25 @@ ul {
 .fa-linkedin-in {
     font-size: 1.7rem;
 }
+
+.about-me-text {
+    height: 35rem;
+    width: 30rem;
+    /* border: 2px solid black; */
+    margin-top: 23rem;
+    margin-left: 43rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-me-para {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 
