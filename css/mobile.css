@@ -1,8 +1,14 @@
 @media (max-width: 500px) {
 
      /* SECTION 1 */
+
+    h1 {
+        font-size: 40px;
+    }
+
     .welcome-page {
         text-align: center;
+        margin-top: 3rem;
     }
 
     .welcome-text {
@@ -11,9 +17,10 @@
 
     ul {
         flex-direction: column;
-        gap: 1rem;
+        gap: 1.5rem;
         align-items: center;
     }
+
 
     /* SECTION 2 */
 
