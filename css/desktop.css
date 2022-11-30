@@ -16,61 +16,9 @@ header {
     font-size: 1.5rem;
 }
 
-
-/* Animation on hamburger-icon changing to an X after clicking */
-.menu-btn {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    width: 2.5rem;
-    height: 0.1rem;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
+.hamburger-container, .mobile-nav {
+    display: none;
 }
-
-.menu-btn-burger {
-    width: 2.5rem;
-    height: 0.1rem;
-    background: black;
-    border-radius: 0.5rem;
-    transition: all 0.5s ease-in-out;
-}
-
-.menu-btn-burger::before,
-.menu-btn-burger::after {
-    content: '';
-    position: absolute;
-    width: 2.5rem;
-    height: 0.1rem;
-    background: black;
-    border-radius: 100rem;
-    transition: all 0.5s ease-in-out;
-}
-
-.menu-btn-burger::before {
-    transform: translateY(-1rem);
-}
-
-.menu-btn-burger::after {
-    transform: translateY(1rem);
-}
-
-/* The animation to a X */
-.menu-btn.open .menu-btn-burger {
-    transform: translateX(-3rem);
-    background: transparent;
-}
-
-.menu-btn.open .menu-btn-burger::before {
-    transform: rotate(45deg) translate(2rem, -2rem);
-}
-
-.menu-btn.open .menu-btn-burger::after {
-    transform: rotate(-45deg) translate(2rem, 2rem);
-}
-
 
 /* WELCOME SECTION */
 h1 {
@@ -82,7 +30,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 35rem;
+    min-height: 35rem;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
 }
@@ -97,6 +45,8 @@ h1 {
     position: relative;
 }
 
+
+/* Text typing animation */
 span {
     animation: blinker 1.5s linear infinite;
     border: 0.5px solid black;
@@ -109,6 +59,8 @@ span {
     }
 }
 
+
+/* WELCOME SECTION */
 .quick-links {
     width: 100%;
     margin-top: 3rem;
@@ -185,7 +137,6 @@ ul {
 
 .name-text {
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
     text-align: center;
 }
 
@@ -213,10 +164,12 @@ ul {
 
 .fa-github {
     font-size: 1.7rem;
+    color: black;
 }
 
 .fa-linkedin-in {
     font-size: 1.7rem;
+    color: black;
 }
 
 .about-me-text {

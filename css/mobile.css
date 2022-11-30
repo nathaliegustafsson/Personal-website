@@ -1,6 +1,6 @@
 @media (max-width: 500px) {
 
-     /* SECTION 1 */
+     /* SECTION 1 (welcome section) */
 
     h1 {
         font-size: 40px;
@@ -8,7 +8,6 @@
 
     .welcome-page {
         text-align: center;
-        margin-top: 3rem;
     }
 
     .welcome-text {
@@ -16,13 +15,94 @@
     }
 
     ul {
-        flex-direction: column;
-        gap: 1.5rem;
-        align-items: center;
+        display: none;
+    }
+
+    /* Hamburger andimation and sidebar */
+    .hamburger-container {
+        display: block;
+    }
+
+    .hamburger {
+        z-index: 100;
+        width: 2rem;
+        cursor: pointer;
+        position: relative;
+        display: block;
+        appearance: none;
+        background: none;
+        outline: none;
+        border: none;
+    }
+
+    .hamburger .bar, .hamburger:after, .hamburger:before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 0.125rem;
+        background-color: black;
+        margin: 0.375rem 0rem;
+        transition: 0.4s;
+    }
+
+    .hamburger.is-active:before {
+        transform: rotate(-45deg) translate(-0.1rem, 0.1rem);
+    }
+
+    .hamburger.is-active::after {
+        transform: rotate(45deg) translate(-0.6rem, -0.6rem);
+    }
+
+    .hamburger.is-active .bar {
+        opacity: 0;
+    }
+
+    .mobile-nav {
+        position: fixed;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        min-height: 100%;
+        display: block;
+        z-index: 98;
+        background-color: white;
+        padding-top: 7.5rem;
+        transition: 0.9s;
+    }
+
+    .mobile-nav.is-active {
+        left: 0;
+    }
+
+    .mobile-nav a {
+        display: block;
+        width: 100%;
+        max-width: 12.5rem;
+        margin: 0 auto 1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        padding: 0.75rem 1rem;
+        background-color: white;
+        font-family: 'Open sans', sans-serif;
+        font-size: 1.7rem;
+        color: black;
+        text-decoration: none;
+    }
+
+    .mobile-nav a.green:hover {
+        background-color: #ABBFB8;
+    }
+
+    .mobile-nav a.purple:hover {
+        background-color: #CFD0E7;
+    }
+
+    .mobile-nav a.pink:hover {
+        background-color: #D6A6A6;
     }
 
 
-    /* SECTION 2 */
+    /* SECTION 2 (about me section */
 
     .green-background {
         width: 15rem;
