@@ -2,23 +2,24 @@ body {
     margin: 0;
 }
 
-header {
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-right: 1.5rem;
-    padding-top: 0.7rem;
-    cursor: pointer;
-}
-
-.fa-bars {
-    font-size: 1.5rem;
-}
-
 .hamburger-container, .mobile-nav {
     display: none;
 }
+
+
+/* Text typing animation */
+span {
+    animation: blinker 1.5s linear infinite;
+    border: 0.5px solid black;
+    margin: 0.2rem;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
 
 /* WELCOME SECTION */
 h1 {
@@ -45,22 +46,6 @@ h1 {
     position: relative;
 }
 
-
-/* Text typing animation */
-span {
-    animation: blinker 1.5s linear infinite;
-    border: 0.5px solid black;
-    margin: 0.2rem;
-}
-
-@keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
-
-
-/* WELCOME SECTION */
 .quick-links {
     width: 100%;
     margin-top: 3rem;
@@ -75,6 +60,11 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    
+}
+
+ul a {
+    text-decoration: none;
 }
 
 .angle-down {
@@ -87,6 +77,8 @@ ul {
     border-radius: 100rem;
     text-align: center;
     padding-top: 2.5rem;
+    cursor: pointer;
+    color: black;
 }
 
 .link-1 {
@@ -101,6 +93,17 @@ ul {
     background-color: #D6A6A6;
 }
 
+.link-1:hover {
+    background-color: #799b8f;
+}
+
+.link-2:hover {
+    background-color: #b8a3ca;
+}
+
+.link-3:hover {
+    background-color: #b47777;
+}
 
 /* ABOUT ME SECTION */
 
