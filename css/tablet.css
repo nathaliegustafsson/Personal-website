@@ -3,6 +3,10 @@
     .hamburger-container, .mobile-nav {
         display: none;
     }
+  
+    .angle-down {
+        display: none;
+    }
 
     .green-background {
         width: 20rem;

@@ -12,10 +12,21 @@
 
     .welcome-text {
         margin-left: 1rem;
+        margin-top: 8rem;
     }
 
     ul {
         display: none;
+    }
+    
+    .angle-down {
+        display: block;
+        margin-top: 11rem;
+    }
+
+    .fa-angle-down {
+        font-size: 2rem;
+        color: #ABBFB8;
     }
 
     /* Hamburger andimation and sidebar */
@@ -104,6 +115,10 @@
 
     /* SECTION 2 (about me section */
 
+    .about-me {
+        margin-top: -5rem;
+    }
+
     .green-background {
         width: 15rem;
         height: 32rem;
@@ -139,6 +154,7 @@
         width: 20rem;
         margin-left: 2rem;
         margin-top: 50rem;
+        text-align: center;
     }
 
 }

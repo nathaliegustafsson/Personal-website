@@ -77,6 +77,10 @@ ul {
     padding: 0;
 }
 
+.angle-down {
+    display: none;
+}
+
 .link-1, .link-2, .link-3 {
     height: 4rem;
     width: 6.5rem;
