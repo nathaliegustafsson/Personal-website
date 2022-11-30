@@ -1,6 +1,14 @@
-@media (max-width: 500px) {
+@media (max-width: 550px) {
 
      /* SECTION 1 (welcome section) */
+
+    header {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        cursor: pointer;
+    }
 
     h1 {
         font-size: 40px;
@@ -126,7 +134,7 @@
 
     .info-card {
         margin-top: 18rem;
-        margin-left: 3rem;
+        margin-left: 4rem;
         width: 18rem;
         height: 26rem;
     }
@@ -152,8 +160,11 @@
 
     .about-me-text {
         width: 20rem;
-        margin-left: 2rem;
+        margin-left: 2.5rem;
         margin-top: 50rem;
+    }
+
+    .title {
         text-align: center;
     }
 

@@ -6,7 +6,6 @@ body {
     display: none;
 }
 
-
 /* Text typing animation */
 span {
     animation: blinker 1.5s linear infinite;
@@ -19,7 +18,6 @@ span {
         opacity: 0;
     }
 }
-
 
 /* WELCOME SECTION */
 h1 {
@@ -132,7 +130,7 @@ ul a {
     position: absolute;
     z-index: 10;
     margin-top: 23rem;
-    margin-left: 13rem;
+    margin-left: 15rem;
     box-shadow: -12px 11px 30px -5px rgba(0,0,0,0.50);;
 }
 
