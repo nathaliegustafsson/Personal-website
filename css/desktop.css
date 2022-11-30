@@ -174,9 +174,17 @@ ul a {
     color: black;
 }
 
+.fa-github:hover {
+    font-size: 2rem;
+}
+
 .fa-linkedin-in {
     font-size: 1.7rem;
     color: black;
+}
+
+.fa-linkedin-in:hover {
+    font-size: 2rem;
 }
 
 .about-me-text {
