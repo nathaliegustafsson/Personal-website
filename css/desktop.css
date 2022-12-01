@@ -6,11 +6,7 @@ body {
     margin: 0;
 }
 
-.hamburger-container, .mobile-nav {
-    display: none;
-}
-
-/* Text typing animation */
+/* TYPEWRITER EFFECT */
 span {
     animation: blinker 1.5s linear infinite;
     border: 0.01rem solid black;
@@ -23,7 +19,12 @@ span {
     }
 }
 
-/* WELCOME SECTION */
+
+/* WELCOME SECTION (1) */
+.hamburger-container, .mobile-nav, .angle-down {
+    display: none;
+}
+
 h1 {
     margin-bottom: -0.1rem;
     font-size: 48px;
@@ -69,10 +70,6 @@ ul a {
     text-decoration: none;
 }
 
-.angle-down {
-    display: none;
-}
-
 .link-1, .link-2, .link-3 {
     height: 4rem;
     width: 6.5rem;
@@ -108,7 +105,7 @@ ul a {
 }
 
 
-/* ABOUT ME SECTION */
+/* ABOUT ME SECTION (2) */
 .about-me {
     min-height: 100%;
     width: 100%;
@@ -195,7 +192,7 @@ ul a {
 }
 
 
-/* PORTFOLIO SECTION */
+/* PORTFOLIO SECTION (3) */
 
 .portfolio {
     width: 100%;
@@ -250,7 +247,8 @@ ul a {
     font-family: 'Open sans', sans-serif;
 }
 
-/* CONTACT SECTION */
+
+/* CONTACT SECTION (4) */
 .contact {
     margin-bottom: 5rem;
 }

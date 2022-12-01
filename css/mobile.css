@@ -1,7 +1,7 @@
 @media (max-width: 550px) {
 
-     /* SECTION 1 (welcome section) */
 
+     /* WELCOME SECTION (1) */
     h1 {
         font-size: 40px;
     }
@@ -39,6 +39,7 @@
         font-size: 2rem;
         color: #ABBFB8;
     }
+
 
     /* Hamburger andimation and sidebar */
     header {
@@ -132,8 +133,7 @@
     }
 
 
-    /* SECTION 2 (about me section */
-
+    /* ABOUT ME SECTION (2) */
     .about-me {
         margin-top: -5rem;
     }
@@ -161,12 +161,12 @@
         margin-top: 1.5rem;
     }
 
-    .fa-github {
+    .fa-github, .fa-linkedin-in {
         font-size: 1.4rem;
     }
-    
-    .fa-linkedin-in {
-        font-size: 1.4rem;
+
+    .fa-github:hover, .fa-linkedin-in:hover {
+        font-size: 1.7rem;
     }
 
     .about-me-text {
@@ -179,8 +179,8 @@
         text-align: center;
     }
 
-    /* SECTION 3 (portfolio section) */
 
+    /* PORTFOLIO SECTION (3) */
     .about-me {
         margin-bottom: 0;
     }
@@ -198,5 +198,11 @@
     .img-alien, .img-restaurang, .p-restaurang, .p-alien {
         width: 15rem;
         text-align: center;
+    }
+
+    
+    /* CONTACT SECTION (4) */
+    .contact-icon {
+        font-size: 1.7rem;
     }
 }

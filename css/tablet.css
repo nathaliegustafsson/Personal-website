@@ -1,17 +1,13 @@
 @media (max-width: 820px) {
 
     
-     /* SECTION 1 (welcome section) */
-    .hamburger-container, .mobile-nav {
-        display: none;
-    }
-  
-    .angle-down {
+     /* WELCOME SECTION (1) */
+    .hamburger-container, .mobile-nav, .angle-down {
         display: none;
     }
 
-
-    /* SECTION 2 (about me section) */
+    
+    /* ABOUT ME SECTION (2) */
     .green-background {
         width: 20rem;
         height: 42.5rem;
@@ -51,7 +47,7 @@
     }
 
 
-    /* SECTION 3 (portfolio section) */
+    /* PORTFOLIO SECTION (3) */
     .portfolio {
         margin-bottom: 16rem;
     }

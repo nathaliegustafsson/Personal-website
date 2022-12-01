@@ -24,7 +24,8 @@ function setupMobileMenu() {
     }
 }
 
-// Typewriter animation
+
+// Typewriter effect
 function startTypeWriter() {
     const p = document.querySelector(".welcome-paragraph");
     const message = "I'm Nathalie and welcome to my website!";
