@@ -139,18 +139,18 @@ ul a {
     box-shadow: -12px 11px 30px -5px rgba(0,0,0,0.50);;
 }
 
-.about-me-pic {
+.img-nathalie {
     width: 13rem;
     border-radius: 50%;
     margin-top: 2.5rem;
 }
 
-.name-text {
+.name-nathalie {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
-.about-me-border {
+.info-card-border {
     border: 1px solid #7D7687;
     width: 6rem;
     margin-bottom: -0.5rem;
@@ -204,7 +204,7 @@ ul a {
     font-family: 'Open Sans', sans-serif;
 }
 
-.about-me-para {
+.about-me-paragraph {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -227,7 +227,7 @@ ul a {
     z-index: 1;
 }
 
-.portf-box {
+.portfolio-container {
     width: 100%;
     background-color: #CFD0E7;
     z-index: 100;
@@ -241,14 +241,14 @@ ul a {
     flex-direction: column;
 }
 
-.box1-portf {
+.portfolio-div {
     margin-left: 3rem;
     margin-right: 3rem;
     display: flex;
     justify-content: space-around;
 }
 
-.alien, .restaurang {
+.img-alien, .img-restaurang {
     box-shadow: 2px 2px 6px 3px rgba(0,0,0,0.42);
     width: 20rem;
 }

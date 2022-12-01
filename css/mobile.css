@@ -155,7 +155,7 @@
         width: 18rem;
     }
 
-    .about-me-pic {
+    .img-nathalie {
         width: 10rem;
         border-radius: 50%;
         margin-top: 1.5rem;
@@ -190,12 +190,12 @@
         height: 54rem;
     }
 
-    .portf-box {
+    .portfolio-container {
         margin-right: 2rem;
         margin-left: 2rem;
     }
 
-    .alien, .restaurang, .p-restaurang, .p-alien {
+    .img-alien, .img-restaurang, .p-restaurang, .p-alien {
         width: 15rem;
         text-align: center;
     }
