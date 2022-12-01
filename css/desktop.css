@@ -113,6 +113,7 @@ ul a {
 .about-me {
     min-height: 100%;
     width: 100%;
+    margin-bottom: 20rem;
     display: flex;
 }
 
@@ -199,6 +200,7 @@ ul a {
     align-content: center;
 }
 
+
 .title {
     font-family: 'Open Sans', sans-serif;
 }
@@ -207,15 +209,55 @@ ul a {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* PORTFOLIO SECTION */
+/*PORTFOLIO SECTION */
 
-/* .portfolio {
+.portfolio {
     width: 100%;
-    
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .pink-background {
+    position: absolute;
+    height: 48rem;
+    width: 30rem;
+    background-color: #D6A6A6;
+    position: absolute;
+    z-index: 1;
+}
 
-} */
+.portf-box {
+    height: 32rem;
+    width: 100%;
+    background-color: #CFD0E7;
+    z-index: 100;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    box-shadow: 10px 10px 12px -3px rgba(0,0,0,0.39);
+    padding-left: 2rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1-portf {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.alien, .restaurang, .p-restaurang, .p-alien {
+    width: 20rem;
+    font-family: 'Open sans', sans-serif;
+}
+
+.alien, .restaurang {
+    box-shadow: 2px 2px 6px 3px rgba(0,0,0,0.42);
+}
+
 
 
