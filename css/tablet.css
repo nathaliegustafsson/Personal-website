@@ -52,6 +52,10 @@
 
 
     /* SECTION 3 (portfolio section) */
+    .portfolio {
+        margin-bottom: 16rem;
+    }
+
     .pink-background {
         width: 20rem;
         height: 65rem;

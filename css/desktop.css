@@ -62,8 +62,7 @@ ul {
     gap: 4rem;
     list-style: none;
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
 }
 
 ul a {
@@ -172,21 +171,12 @@ ul a {
     gap: 2rem;
 }
 
-.fa-github {
+.fa-github, .fa-linkedin-in {
     font-size: 1.7rem;
     color: black;
 }
 
-.fa-linkedin-in {
-    font-size: 1.7rem;
-    color: black;
-}
-
-.fa-github:hover {
-    font-size: 2rem;
-}
-
-.fa-linkedin-in:hover {
+.fa-github:hover, .fa-linkedin-in:hover {
     font-size: 2rem;
 }
 
@@ -200,13 +190,10 @@ ul a {
     align-content: center;
 }
 
-.title {
+.title, .about-me-paragraph  {
     font-family: 'Open Sans', sans-serif;
 }
 
-.about-me-paragraph {
-    font-family: 'Open Sans', sans-serif;
-}
 
 /* PORTFOLIO SECTION */
 
@@ -216,6 +203,7 @@ ul a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-bottom: 10rem;
 }
 
 .pink-background {
@@ -260,4 +248,30 @@ ul a {
 .p-restaurang, .p-alien {
     width: 20rem;
     font-family: 'Open sans', sans-serif;
+}
+
+/* CONTACT SECTION */
+.contact {
+    margin-bottom: 5rem;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-contact {
+    font-family: 'Open sans', sans-serif;
+    text-align: center;
+}
+
+.contact-icon {
+    margin: 0.5rem;
+}
+
+.contact-icon:hover {
+    color: #b8a3ca;
+    font-size: 1.7rem;
 }
