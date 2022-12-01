@@ -2,14 +2,6 @@
 
      /* SECTION 1 (welcome section) */
 
-    header {
-        display: flex;
-        justify-content: flex-end;
-        padding-right: 1rem;
-        padding-top: 1rem;
-        cursor: pointer;
-    }
-
     h1 {
         font-size: 40px;
     }
@@ -33,12 +25,12 @@
         cursor: pointer;
     }
 
-    a {
+    .read-more {
         text-decoration: none;
         color: black;   
     }
 
-    a:hover {
+    .read-more:hover {
         text-decoration: underline;
     }
 
@@ -48,6 +40,14 @@
     }
 
     /* Hamburger andimation and sidebar */
+    header {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        cursor: pointer;
+    }
+
     .hamburger-container {
         display: block;
     }
