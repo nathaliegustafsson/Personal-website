@@ -8,6 +8,7 @@
 
     .welcome-page {
         text-align: center;
+        margin-bottom: 10rem;
     }
 
     .welcome-text {
@@ -138,13 +139,13 @@
     }
 
     .green-background {
-        width: 15rem;
-        height: 32rem;
+        width: 17rem;
+        height: 35rem;
     }
 
     .info-card {
-        margin-top: 18rem;
-        margin-left: 4rem;
+        margin-top: 4.5rem;
+        margin-left: 8rem;
         width: 18rem;
         height: 26rem;
     }
@@ -170,8 +171,8 @@
 
     .about-me-text {
         width: 20rem;
-        margin-left: 2.5rem;
-        margin-top: 50rem;
+        margin-left: 7rem;
+        margin-top: 37rem;
     }
 
     .title {

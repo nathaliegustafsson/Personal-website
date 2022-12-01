@@ -33,9 +33,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 35rem;
+    min-height: 100vh;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5rem;
 }
 
 .welcome-text {
@@ -110,14 +111,13 @@ ul a {
 
 /* ABOUT ME SECTION */
 .about-me {
-    height: 70rem;
+    min-height: 100%;
     width: 100%;
     display: flex;
 }
 
 .green-background {
-    margin-top: 15rem;
-    height: 50rem;
+    height: 48rem;
     width: 30rem;
     background-color: #ABBFB8;
     position: absolute;
@@ -133,7 +133,7 @@ ul a {
     background-color: #CFD0E7;
     position: absolute;
     z-index: 10;
-    margin-top: 23rem;
+    margin-top: 6.5rem;
     margin-left: 15rem;
     box-shadow: -12px 11px 30px -5px rgba(0,0,0,0.50);;
 }
@@ -192,8 +192,7 @@ ul a {
 .about-me-text {
     height: 35rem;
     width: 30rem;
-    /* border: 2px solid black; */
-    margin-top: 23rem;
+    margin-top: 8rem;
     margin-left: 43rem;
     display: flex;
     flex-direction: column;
