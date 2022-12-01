@@ -30,6 +30,16 @@
     .angle-down {
         display: block;
         margin-top: 11rem;
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;   
+    }
+
+    a:hover {
+        text-decoration: underline;
     }
 
     .fa-angle-down {
