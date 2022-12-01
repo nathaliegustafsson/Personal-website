@@ -13,7 +13,7 @@ body {
 /* Text typing animation */
 span {
     animation: blinker 1.5s linear infinite;
-    border: 0.5px solid black;
+    border: 0.01rem solid black;
     margin: 0.2rem;
 }
 
@@ -107,8 +107,8 @@ ul a {
     background-color: #ce8989;
 }
 
-/* ABOUT ME SECTION */
 
+/* ABOUT ME SECTION */
 .about-me {
     height: 70rem;
     width: 100%;
@@ -176,13 +176,13 @@ ul a {
     color: black;
 }
 
-.fa-github:hover {
-    font-size: 2rem;
-}
-
 .fa-linkedin-in {
     font-size: 1.7rem;
     color: black;
+}
+
+.fa-github:hover {
+    font-size: 2rem;
 }
 
 .fa-linkedin-in:hover {
@@ -208,5 +208,15 @@ ul a {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* PORTFOLIO SECTION */
+
+/* .portfolio {
+    width: 100%;
+    
+}
+
+.pink-background {
+
+} */
 
 
