@@ -253,6 +253,10 @@ ul a {
     width: 20rem;
 }
 
+.img-alien:hover, .img-restaurang:hover {
+    box-shadow: 2px 2px 36px 7px rgba(0,0,0,0.6);
+}
+
 .p-restaurang, .p-alien {
     width: 20rem;
     font-family: 'Open sans', sans-serif;
