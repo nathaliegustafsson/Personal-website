@@ -200,7 +200,6 @@ ul a {
     align-content: center;
 }
 
-
 .title {
     font-family: 'Open Sans', sans-serif;
 }
@@ -209,7 +208,7 @@ ul a {
     font-family: 'Open Sans', sans-serif;
 }
 
-/*PORTFOLIO SECTION */
+/* PORTFOLIO SECTION */
 
 .portfolio {
     width: 100%;
@@ -229,7 +228,6 @@ ul a {
 }
 
 .portf-box {
-    height: 32rem;
     width: 100%;
     background-color: #CFD0E7;
     z-index: 100;
@@ -238,26 +236,24 @@ ul a {
     box-shadow: 10px 10px 12px -3px rgba(0,0,0,0.39);
     padding-left: 2rem;
     padding-top: 1rem;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
 }
 
 .box1-portf {
-    margin-top: 3rem;
     margin-left: 3rem;
     margin-right: 3rem;
     display: flex;
     justify-content: space-around;
 }
 
-.alien, .restaurang, .p-restaurang, .p-alien {
+.alien, .restaurang {
+    box-shadow: 2px 2px 6px 3px rgba(0,0,0,0.42);
+    width: 20rem;
+}
+
+.p-restaurang, .p-alien {
     width: 20rem;
     font-family: 'Open sans', sans-serif;
 }
-
-.alien, .restaurang {
-    box-shadow: 2px 2px 6px 3px rgba(0,0,0,0.42);
-}
-
-
-

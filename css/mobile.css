@@ -28,7 +28,7 @@
 
     .read-more {
         text-decoration: none;
-        color: black;   
+        color: black;  
     }
 
     .read-more:hover {
@@ -145,7 +145,7 @@
 
     .info-card {
         margin-top: 4.5rem;
-        margin-left: 4.5rem;
+        margin-left: 4rem;
         width: 18rem;
         height: 26rem;
     }
@@ -179,4 +179,24 @@
         text-align: center;
     }
 
+    /* SECTION 3 (portfolio section) */
+
+    .about-me {
+        margin-bottom: 0;
+    }
+
+    .pink-background {
+        width: 17rem;
+        height: 54rem;
+    }
+
+    .portf-box {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .alien, .restaurang, .p-restaurang, .p-alien {
+        width: 15rem;
+        text-align: center;
+    }
 }

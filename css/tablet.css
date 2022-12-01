@@ -1,7 +1,7 @@
 @media (max-width: 820px) {
 
     
-         /* SECTION 1 (welcome section) */
+     /* SECTION 1 (welcome section) */
     .hamburger-container, .mobile-nav {
         display: none;
     }
@@ -11,7 +11,7 @@
     }
 
 
-    /* SECTION 2 (about me section */
+    /* SECTION 2 (about me section) */
     .green-background {
         width: 20rem;
         height: 42.5rem;
@@ -50,4 +50,26 @@
         font-size: 22px;
     }
 
+
+    /* SECTION 3 (portfolio section) */
+    .pink-background {
+        width: 20rem;
+        height: 65rem;
+    }
+
+    .portf-box {
+        margin-right: 5rem;
+        margin-left: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1-portf {
+        margin-top: 0;
+        margin-left: 0;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-around;
+    }
 }
