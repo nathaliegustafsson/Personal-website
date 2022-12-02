@@ -1,5 +1,4 @@
-@media (max-width: 550px) {
-
+@media (max-width: 600px) {
 
      /* WELCOME SECTION (1) */
     h1 {
@@ -39,7 +38,6 @@
         font-size: 2rem;
         color: #ABBFB8;
     }
-
 
     /* Hamburger andimation and sidebar */
     header {
@@ -132,20 +130,19 @@
         background-color: #D6A6A6;
     }
 
-
     /* ABOUT ME SECTION (2) */
     .about-me {
         margin-top: -5rem;
     }
 
     .green-background {
-        width: 17rem;
+        width: 20rem;
         height: 35rem;
     }
 
     .info-card {
         margin-top: 4.5rem;
-        margin-left: 4rem;
+        margin-left: 8rem;
         width: 18rem;
         height: 26rem;
     }
@@ -171,7 +168,7 @@
 
     .about-me-text {
         width: 20rem;
-        margin-left: 1rem;
+        margin-left: 7rem;
         margin-top: 37rem;
         margin-bottom: 5rem;
         text-align: center;
@@ -180,7 +177,6 @@
     .title {
         text-align: center;
     }
-
 
     /* PORTFOLIO SECTION (3) */
     .about-me {
@@ -206,9 +202,24 @@
         text-align: center;
     }
 
-    
     /* CONTACT SECTION (4) */
     .contact-icon {
         font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    /* ABOUT ME SECTION (2) */
+    .green-background {
+        width: 15rem;
+    }
+
+    .info-card {
+        margin-left: 4rem;
+    }
+
+    .about-me-text {
+        margin-left: 1rem;
     }
 }
