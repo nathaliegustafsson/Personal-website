@@ -25,6 +25,10 @@
     }
 
     /* ABOUT ME SECTION (2) */
+    .about-me {
+        margin-bottom: 7rem;
+    }
+
     .green-background {
         width: 20rem;
         height: 42.5rem;
@@ -60,6 +64,10 @@
 
     .name-nathalie {
         font-size: 22px;
+    }
+
+    .competence {
+        margin-bottom: 16rem;
     }
 
     /* PORTFOLIO SECTION (3) */
@@ -103,6 +111,11 @@
 
     .about-me-text {
         margin-left: 25.5rem;
+    }
+
+    .competence {
+        margin-top: 8rem;
+        margin-bottom: 16rem;
     }
 }
 

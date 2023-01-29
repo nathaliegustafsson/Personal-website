@@ -170,7 +170,6 @@
         width: 20rem;
         margin-left: 7rem;
         margin-top: 37rem;
-        margin-bottom: 5rem;
         text-align: center;
     }
 
@@ -179,6 +178,16 @@
     }
 
     /* PORTFOLIO SECTION (3) */
+    .competence {
+        margin-top: 1rem;
+        margin-bottom: 13rem;
+    }
+
+    .competence-containers {
+        flex-direction: column;
+        width: fit-content;
+    }
+
     .about-me {
         margin-bottom: 0;
     }
