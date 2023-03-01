@@ -206,7 +206,7 @@ ul a {
     padding: 1rem;
 }
 
-.HTML-box, .CSS-box, .JavaScript-box, .TypeScript-box, .P5js-box {
+.HTML-box, .CSS-box, .JavaScript-box, .TypeScript-box, .P5js-box, .React-box {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1rem;
     padding: 1rem;
@@ -216,7 +216,7 @@ ul a {
     gap: 1rem;
 }
 
-.comp-html, .comp-css, .comp-javascript, .comp-typescript, .comp-p5 {
+.comp-html, .comp-css, .comp-javascript, .comp-typescript, .comp-p5, .comp-react {
     width: 10rem;
     height: 1.2rem;
     background-color: #fff;
@@ -228,7 +228,7 @@ ul a {
     padding: 0.2rem;
 }
 
-.comp-htlm-level, .comp-css-level, .comp-js-level, .comp-ts-level, .comp-p5-level {
+.comp-htlm-level, .comp-css-level, .comp-js-level, .comp-ts-level, .comp-p5-level, .comp-react-level {
     background-color: #88899B;
     height: 1.2rem;
     border-radius: 20rem;
@@ -251,6 +251,10 @@ ul a {
 }
 
 .comp-p5-level {
+    width: 2rem;
+}
+
+.comp-react-level {
     width: 2rem;
 }
 
