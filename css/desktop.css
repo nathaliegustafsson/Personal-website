@@ -295,16 +295,16 @@ ul a {
     gap: 1.5rem;
 }
 
-.img-alien, .img-restaurang {
+.img-alien, .img-bumpy {
     box-shadow: 2px 2px 6px 3px rgba(0,0,0,0.42);
     width: 20rem;
 }
 
-.img-alien:hover, .img-restaurang:hover {
+.img-alien:hover, .img-bumpy:hover {
     box-shadow: 2px 2px 36px 7px rgba(0,0,0,0.6);
 }
 
-.p-restaurang, .p-alien {
+.p-bumpy, .p-alien {
     width: 20rem;
     font-family: 'Open sans', sans-serif;
 }
