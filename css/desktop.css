@@ -38,7 +38,7 @@ h1 {
   min-height: 100vh;
   flex-direction: column;
   font-family: 'Open Sans', sans-serif;
-  margin-bottom: 5rem;
+  margin-bottom: 15rem;
 }
 
 .welcome-text {
@@ -109,15 +109,20 @@ ul a {
 
 /* ABOUT ME SECTION (2) */
 .about-me {
-  min-height: 100%;
   width: 100%;
-  margin-bottom: 13rem;
   display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.bg-and-card-box {
+  display: flex;
+  align-items: center;
 }
 
 .green-background {
-  height: 48rem;
-  width: 30rem;
+  height: 100%;
+  width: 35%;
   background-color: #abbfb8;
   position: absolute;
 }
@@ -127,18 +132,16 @@ ul a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 35rem;
-  width: 25rem;
   background-color: #cfd0e7;
   position: absolute;
   z-index: 10;
-  margin-top: 6.5rem;
-  margin-left: 15rem;
+  margin-left: 18%;
   box-shadow: -12px 11px 30px -5px rgba(0, 0, 0, 0.5);
+  width: 28%;
 }
 
 .img-nathalie {
-  width: 13rem;
+  width: 50%;
   border-radius: 50%;
   margin-top: 2.5rem;
 }
@@ -146,23 +149,26 @@ ul a {
 .name-nathalie {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .info-card-border {
   border: 1px solid #7d7687;
-  width: 6rem;
-  margin-bottom: -0.5rem;
-  margin-top: -0.5rem;
+  width: 25%;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .info-card-text {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  margin-bottom: 2rem;
 }
 
 .white-border {
   height: 3rem;
-  width: 25rem;
+  width: 100%;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -181,11 +187,12 @@ ul a {
   font-size: 2rem;
 }
 
+.about-me-box {
+  width: 70%;
+}
+
 .about-me-text {
-  height: 35rem;
-  width: 30rem;
-  margin-top: 6rem;
-  margin-left: 43rem;
+  margin-left: 48%;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -197,10 +204,6 @@ ul a {
   margin: 0.5rem;
 }
 
-.about-me-box {
-  width: 80%;
-}
-
 /* COMPETENCE SECTION */
 .competence {
   width: 100%;
@@ -208,7 +211,8 @@ ul a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 11rem;
+  margin-bottom: 15rem;
+  margin-top: 10rem;
 }
 
 .competence-containers {
