@@ -1,4 +1,4 @@
-@media (max-width: 950px) {
+@media (max-width: 1100px) {
   .green-background {
     width: 25rem;
   }
@@ -16,7 +16,7 @@
   }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 920px) {
   /* WELCOME SECTION (1) */
   .hamburger-container,
   .mobile-nav,
@@ -98,7 +98,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 880px) {
   /* ABOUT ME SECTION (2) */
   .green-background {
     width: 19rem;
@@ -106,6 +106,10 @@
 
   .info-card {
     margin-left: 4rem;
+  }
+
+  .about-me-box {
+    width: 100%;
   }
 
   .about-me-text {
@@ -118,7 +122,7 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 780px) {
   /* ABOUT ME SECTION (2) */
   .green-background {
     width: 16rem;
@@ -131,6 +135,10 @@
 
   .white-border {
     width: 18rem;
+  }
+
+  .about-me-box {
+    width: 100%;
   }
 
   .about-me-text {

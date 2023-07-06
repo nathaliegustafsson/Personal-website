@@ -194,6 +194,11 @@ ul a {
 .title,
 .about-me-paragraph {
   font-family: 'Open Sans', sans-serif;
+  margin: 0.5rem;
+}
+
+.about-me-box {
+  width: 80%;
 }
 
 /* COMPETENCE SECTION */
