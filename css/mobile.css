@@ -133,32 +133,37 @@
 
   /* ABOUT ME SECTION (2) */
   .about-me {
-    margin-top: -5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .bg-and-card-box {
+    margin-bottom: 10%;
   }
 
   .green-background {
-    width: 25rem;
-    height: 35rem;
+    width: 55%;
+    margin-top: 100%;
   }
 
   .info-card {
-    margin-top: 2.5rem;
-    margin-left: 10rem;
-    width: 20rem;
-    height: 30rem;
+    width: 58%;
+    margin-top: 100%;
+    margin-left: 22%;
   }
 
-  .white-border {
+  /* .white-border {
     height: 4rem;
     width: 20rem;
-  }
+  } */
 
-  .img-nathalie {
+  /* .img-nathalie {
     width: 12rem;
     border-radius: 50%;
     margin-top: 1.5rem;
-  }
-
+  } */
+  /* 
   .fa-github,
   .fa-linkedin-in {
     font-size: 1.7rem;
@@ -167,12 +172,17 @@
   .fa-github:hover,
   .fa-linkedin-in:hover {
     font-size: 2rem;
+  } */
+
+  .about-me-bigbox {
+    display: flex;
+    justify-content: center;
   }
 
   .about-me-text {
-    width: 20rem;
-    margin-left: 7rem;
-    margin-top: 37rem;
+    margin-top: 110%;
+    margin-left: 0;
+    width: 70%;
     text-align: center;
   }
 
@@ -189,10 +199,6 @@
   .competence-containers {
     flex-direction: column;
     width: fit-content;
-  }
-
-  .about-me {
-    margin-bottom: 0;
   }
 
   .portfolio {
@@ -228,45 +234,31 @@
 }
 
 @media (max-width: 500px) {
-  /* ABOUT ME SECTION (2) */
-  .green-background {
-    width: 18rem;
-    height: 32rem;
-  }
-
-  .about-me-text {
-    margin-left: 1rem;
-  }
-
-  .info-card {
-    margin-top: 3.5rem;
-    margin-left: 4rem;
-    width: 17rem;
-    height: 26rem;
-  }
-
-  .white-border {
-    height: 2rem;
-    width: 17rem;
-  }
-
-  .img-nathalie {
-    width: 10rem;
-    border-radius: 50%;
-    margin-top: 1.5rem;
-  }
-
-  .fa-github,
-  .fa-linkedin-in {
-    font-size: 1.4rem;
-  }
-
-  .fa-github:hover,
-  .fa-linkedin-in:hover {
-    font-size: 1.7rem;
+  .bg-and-card-box {
+    margin-bottom: 25%;
   }
 
   .portfolio-container {
     margin-right: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .bg-and-card-box {
+    margin-bottom: 35%;
+  }
+
+  .green-background {
+    height: 85%;
+    width: 70%;
+  }
+
+  .info-card {
+    width: 75%;
+    margin-left: 14%;
+  }
+
+  .about-me-text {
+    width: 85%;
   }
 }
