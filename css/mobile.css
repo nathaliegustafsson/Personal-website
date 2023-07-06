@@ -153,27 +153,6 @@
     margin-left: 22%;
   }
 
-  /* .white-border {
-    height: 4rem;
-    width: 20rem;
-  } */
-
-  /* .img-nathalie {
-    width: 12rem;
-    border-radius: 50%;
-    margin-top: 1.5rem;
-  } */
-  /* 
-  .fa-github,
-  .fa-linkedin-in {
-    font-size: 1.7rem;
-  }
-
-  .fa-github:hover,
-  .fa-linkedin-in:hover {
-    font-size: 2rem;
-  } */
-
   .about-me-bigbox {
     display: flex;
     justify-content: center;
@@ -192,7 +171,7 @@
 
   /* PORTFOLIO SECTION (3) */
   .competence {
-    margin-top: 1rem;
+    margin-top: 5rem;
     margin-bottom: 13rem;
   }
 
