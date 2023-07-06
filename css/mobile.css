@@ -209,12 +209,16 @@
     margin-left: 2rem;
   }
 
-  .img-alien,
-  .img-restaurang,
-  .p-restaurang,
-  .p-alien {
+  .img-ofh,
+  .img-bumpy,
+  .p-bumpy,
+  .p-ofh {
     width: 15rem;
     text-align: center;
+  }
+
+  .img-ofh {
+    height: 10rem;
   }
 
   /* CONTACT SECTION (4) */
