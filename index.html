@@ -1,159 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Nathalie's website</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="./css/desktop.css">
-    <link rel="stylesheet" href="./css/tablet.css">
-    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/desktop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
 
-    <script src="https://kit.fontawesome.com/90c5e2fa3d.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/90c5e2fa3d.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./main.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="hamburger-container">
-            <button class="hamburger">
-                <div class="bar"></div>
-            </button>
-        </div>
+      <div class="hamburger-container">
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </div>
     </header>
 
     <main>
-        <nav class="mobile-nav">
-            <a class="green" href="#about-me">About me</a>
-            <a class="purple" href="#portfolio">Portfolio</a>
-            <a class="pink" href="#contact">Contact</a>
-        </nav>
+      <nav class="mobile-nav">
+        <a class="green" href="#about-me">About me</a>
+        <a class="purple" href="#portfolio">Portfolio</a>
+        <a class="pink" href="#contact">Contact</a>
+      </nav>
 
-        <section class="welcome-page">
-            <div class="welcome-text">
-                <h1>Hello,</h1>
-                <p class="welcome-paragraph"></p>
+      <section class="welcome-page">
+        <div class="welcome-text">
+          <h1>Hello,</h1>
+          <p class="welcome-paragraph"></p>
+        </div>
+
+        <div class="quick-links">
+          <ul>
+            <a href="#about-me"><li class="link-1">About me</li></a>
+            <a href="#portfolio"><li class="link-2">Portfolio</li></a>
+            <a href="#contact"><li class="link-3">Contact</li></a>
+          </ul>
+
+          <div class="angle-down">
+            <a href="#about-me" class="read-more"><p>Read more</p></a>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-me" id="about-me">
+        <div class="green-background"></div>
+
+        <div class="info-card">
+          <img
+            class="img-nathalie"
+            src="./images/cv-picture.jpg"
+            alt="CV-picture"
+          />
+          <h2 class="name-nathalie">
+            Nathalie <br />
+            Gustafsson
+          </h2>
+          <div class="info-card-border"></div>
+          <h3 class="info-card-text">Front End Developer</h3>
+          <div class="white-border">
+            <a href="https://github.com/nathaliegustafsson/"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://linkedin.com/in/nathalie-gustafsson-5393b415a"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="about-me-text">
+          <h2 class="title">About me</h2>
+          <p class="about-me-paragraph">
+            I'm studying to become a Front End Developer at Medieinstitutet in
+            Gothenburg. I have just recently moved to Gothenburg from
+            Vänersborg, but I'm originally from a small village called Mellerud
+            located in Dalsland. <br /><br />
+            After working in the service industry for seven years I wanted to
+            try something new, and when I found Front End development I
+            immediately knew that this is what I wanted to pursue. For me it's a
+            way to be creative and being able to grow and learn many new skills.
+            <br /><br />
+            In September -23 it's finally time for me to go on my first
+            internship, and I'm really excited to apply my skills in a
+            real-world setting and continue to grow as a developer. In addition
+            to developing my skills in Front End, I'm interested in learning
+            more about full stack development, as well as UX and UI.
+          </p>
+        </div>
+      </section>
+
+      <section class="competence" id="competence">
+        <h2 class="title">Competence</h2>
+        <div class="competence-containers">
+          <div class="competence-container1">
+            <div class="HTML-box">
+              HTML
+              <div class="comp-html">
+                <div class="comp-htlm-level"></div>
+              </div>
             </div>
-
-            <div class="quick-links"> 
-                <ul>
-                    <a href="#about-me"><li class="link-1">About me</li></a>
-                    <a href="#portfolio"><li class="link-2">Portfolio</li></a>
-                    <a href="#contact"><li class="link-3">Contact</li></a>
-                </ul>
-
-                <div class="angle-down">
-                    <a href="#about-me" class="read-more"><p>Read more</p></a>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
+            <div class="CSS-box">
+              CSS
+              <div class="comp-css">
+                <div class="comp-css-level"></div>
+              </div>
             </div>
-        </section>
-
-        <section class="about-me" id="about-me">
-            <div class="green-background"></div>
-
-            <div class="info-card">
-                <img class="img-nathalie" src="./images/cv-picture.jpg" alt="CV-picture">
-                <h2 class="name-nathalie">Nathalie <br> Gustafsson</h2>
-                <div class="info-card-border"></div>
-                <h3 class="info-card-text">Front End Developer</h3>
-                <div class="white-border">
-                    <a href="https://github.com/nathaliegustafsson/"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://linkedin.com/in/nathalie-gustafsson-5393b415a"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>  
+            <div class="JavaScript-box">
+              JavaScript
+              <div class="comp-javascript">
+                <div class="comp-js-level"></div>
+              </div>
             </div>
-
-            <div class="about-me-text">
-                <h2 class="title">About me</h2>
-                <p class="about-me-paragraph">I'm a Front End Developer student at Medieinstitutet in Gothenburg.
-                    I have just recently moved to Gothenburg from Vänersborg, but I'm originally from a small village 
-                    called Mellerud located in Dalsland. <br><br> After working in the service industry for seven years 
-                    I wanted to try something new, and I found Front End programming to be interesting and fun! <br><br>
-                    I've been a student at Medieinstitutet since September -22 and so far I've had courses in HTML, CSS, 
-                    UX and I'm currently having a course in JavaScript. I have a portfolio further down with some of the 
-                    projects I've done so far, feel free to check them out!
-                </p>
+          </div>
+          <div class="competence-container2">
+            <div class="TypeScript-box">
+              TypeScript
+              <div class="comp-typescript">
+                <div class="comp-ts-level"></div>
+              </div>
             </div>
-        </section>
-
-        <section class="competence" id="competence">
-            <h2 class="title">Competence</h2>
-            <div class="competence-containers">
-                <div class="competence-container1">
-                    <div class="HTML-box"> HTML
-                        <div class="comp-html">
-                            <div class="comp-htlm-level"></div>
-                        </div>
-                    </div>
-                    <div class="CSS-box">CSS
-                        <div class="comp-css">
-                            <div class="comp-css-level"></div>
-                        </div>
-                    </div>
-                    <div class="JavaScript-box">JavaScript
-                        <div class="comp-javascript">
-                            <div class="comp-js-level"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="competence-container2">
-                    <div class="TypeScript-box">TypeScript
-                        <div class="comp-typescript">
-                            <div class="comp-ts-level"></div>
-                        </div>
-                    </div>
-                    <div class="P5js-box">P5.JS
-                        <div class="comp-p5">
-                            <div class="comp-p5-level"></div>
-                        </div>
-                    </div>
-                    <div class="React-box">React
-                        <div class="comp-react">
-                            <div class="comp-react-level"></div>
-                        </div>
-                    </div>
-                </div>
+            <div class="P5js-box">
+              P5.JS
+              <div class="comp-p5">
+                <div class="comp-p5-level"></div>
+              </div>
             </div>
-        </section>
-
-        <section class="portfolio" id="portfolio">
-            <div class="pink-background"></div>
-
-            <div class="portfolio-container">
-                <h2 class="title">Portfolio</h2>
-                <div class="portfolio-div">
-                    <div class="small-box1">  
-                        <h3 class="title">Alien in the forest</h3>  
-                        <a href="https://nathaliegustafsson.github.io/Alien-in-the-forest/"><img class="img-alien" src="./images/alien-in-forest.png" alt="alien-in-forest"></a>
-                        <p class="p-alien">This is a textbased interactive story. Click on the image to try it out!</p>
-                    </div>
-                    <div class="small-box2">  
-                        <h3 class="title">Bumpy Monster</h3>  
-                        <a href="https://bumpythegame.netlify.app/"><img class="img-bumpy" src="./images/bumpp.png" alt="bumpy"></a>
-                        <p class="p-bumpy">Created a game together with five other students from my class called 'Bumpy Monster'. Click on the image to try it out!</p>
-                    </div>
-                </div>
+            <div class="React-box">
+              React
+              <div class="comp-react">
+                <div class="comp-react-level"></div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section class="contact" id="contact">
-            <div class="contact-container">
-                <h2 class="title">Contact</h2>
-                <p class="p-contact">Send me an e-mail: nathalie.gustafsson@medieinstitutet.se <br><br>
-                    Or find me here:                    
-                    <a href="https://github.com/nathaliegustafsson/"><i class="fa-brands fa-github contact-icon"></i></a>
-                    <a href="https://linkedin.com/in/nathalie-gustafsson-5393b415a"><i class="fa-brands fa-linkedin-in contact-icon"></i></a>
-                </p>
+      <section class="portfolio" id="portfolio">
+        <div class="pink-background"></div>
+
+        <div class="portfolio-container">
+          <h2 class="title">Portfolio</h2>
+          <div class="portfolio-div">
+            <div class="small-box1">
+              <h3 class="title">Alien in the forest</h3>
+              <a
+                href="https://nathaliegustafsson.github.io/Alien-in-the-forest/"
+                ><img
+                  class="img-alien"
+                  src="./images/alien-in-forest.png"
+                  alt="alien-in-forest"
+              /></a>
+              <p class="p-alien">
+                This is a textbased interactive story. Click on the image to try
+                it out!
+              </p>
             </div>
-        </section>
+            <div class="small-box2">
+              <h3 class="title">Bumpy Monster</h3>
+              <a href="https://bumpythegame.netlify.app/"
+                ><img class="img-bumpy" src="./images/bumpp.png" alt="bumpy"
+              /></a>
+              <p class="p-bumpy">
+                Created a game together with five other students from my class
+                called 'Bumpy Monster'. Click on the image to try it out!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact-container">
+          <h2 class="title">Contact</h2>
+          <p class="p-contact">
+            Send me an e-mail: nathalie.gustafsson@medieinstitutet.se
+            <br /><br />
+            Or find me here:
+            <a href="https://github.com/nathaliegustafsson/"
+              ><i class="fa-brands fa-github contact-icon"></i
+            ></a>
+            <a href="https://linkedin.com/in/nathalie-gustafsson-5393b415a"
+              ><i class="fa-brands fa-linkedin-in contact-icon"></i
+            ></a>
+          </p>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
-
-
