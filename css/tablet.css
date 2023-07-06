@@ -1,14 +1,18 @@
 @media (max-width: 1100px) {
-  .green-background {
-    width: 25rem;
-  }
-
   .info-card {
-    margin-left: 10rem;
+    width: 30%;
   }
 
   .about-me-text {
-    margin-left: 37rem;
+    margin-left: 50%;
+  }
+
+  .about-me-box {
+    width: 90%;
+  }
+
+  .img-nathalie {
+    width: 60%;
   }
 
   .portfolio-container {
@@ -25,38 +29,31 @@
   }
 
   /* ABOUT ME SECTION (2) */
-  .about-me {
+  /* .about-me {
     margin-bottom: 7rem;
-  }
+  } */
 
-  .green-background {
+  /* .green-background {
     width: 20rem;
     height: 42.5rem;
-  }
+  } */
 
   .info-card {
-    margin-left: 8rem;
-    margin-top: 6rem;
-    height: 30rem;
-    width: 20rem;
+    margin-left: 15%;
+    width: 34%;
   }
 
-  .white-border {
+  /* .white-border {
     height: 3rem;
     width: 20rem;
-  }
+  } */
 
-  .about-me-text {
+  /* .about-me-text {
     margin-left: 30rem;
     margin-top: 5rem;
     margin-right: 1rem;
-  }
-
-  .img-nathalie {
-    width: 11rem;
-    border-radius: 50%;
-    margin-top: 2.5rem;
-  }
+    justify-content: center;
+  } */
 
   .info-card-text {
     font-size: 18px;
@@ -100,21 +97,21 @@
 
 @media (max-width: 880px) {
   /* ABOUT ME SECTION (2) */
-  .green-background {
+  /* .green-background {
     width: 19rem;
-  }
+  } */
 
-  .info-card {
+  /* .info-card {
     margin-left: 4rem;
-  }
+  } */
 
-  .about-me-box {
+  /* .about-me-box {
     width: 100%;
-  }
+  } */
 
-  .about-me-text {
+  /* .about-me-text {
     margin-left: 25.5rem;
-  }
+  } */
 
   .competence {
     margin-top: 8rem;
@@ -124,24 +121,24 @@
 
 @media (max-width: 780px) {
   /* ABOUT ME SECTION (2) */
-  .green-background {
+  /* .green-background {
     width: 16rem;
-  }
+  } */
 
   .info-card {
-    margin-left: 3rem;
-    width: 18rem;
+    margin-left: 10%;
+    width: 39%;
   }
 
-  .white-border {
+  /* .white-border {
     width: 18rem;
-  }
+  } */
 
   .about-me-box {
     width: 100%;
   }
 
-  .about-me-text {
+  /* .about-me-text {
     margin-left: 22rem;
-  }
+  } */
 }
