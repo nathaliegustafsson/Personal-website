@@ -350,6 +350,16 @@ ul a {
   font-family: 'Open sans', sans-serif;
 }
 
+.collab-links {
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.collab-links:hover {
+  color: #977b7b;
+}
+
 /* CONTACT SECTION (4) */
 .contact {
   margin-bottom: 5rem;
