@@ -153,10 +153,10 @@ ul a {
 
 .name-nathalie {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   text-align: center;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  font-weight: 400;
 }
 
 .info-card-border {
@@ -170,7 +170,7 @@ ul a {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   margin-bottom: 2rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .white-border {
@@ -208,14 +208,19 @@ ul a {
 
 .title,
 .about-me-paragraph {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0.5rem;
   font-weight: 300;
 }
 
 /* COMPETENCE SECTION */
 .competence {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.competence-box {
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -223,10 +228,13 @@ ul a {
   margin-bottom: 13rem;
   margin-top: 18rem;
   font-weight: 400;
+  background-color: #daddf4;
+  padding: 1rem;
+  box-shadow: 1px 15px 20px -5px rgba(0, 0, 0, 0.5);
 }
 
 .competence-containers {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   padding: 1rem;
@@ -237,12 +245,22 @@ ul a {
 .JavaScript-box,
 .TypeScript-box,
 .P5js-box,
-.React-box {
-  font-family: 'Open Sans', sans-serif;
+.React-box,
+.SolidJS-box,
+.MongoDB-box,
+.Mongoose-box,
+.Express-box,
+.NodeJS-box,
+.MUI-box,
+.SC-box,
+.Socket-box,
+.YUP-box,
+.Figma-box {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   font-size: 1.1rem;
   padding: 1rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
@@ -336,7 +354,7 @@ ul a {
 }
 
 .title-port {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
 
@@ -358,7 +376,7 @@ ul a {
 .p-bumpy,
 .p-ofh {
   width: 20rem;
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
 
@@ -385,7 +403,7 @@ ul a {
 }
 
 .p-contact {
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-weight: 300;
 }
